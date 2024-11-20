@@ -6,6 +6,5 @@ WORKDIR /app
 COPY target/ovh_buy-1.0-SNAPSHOT.jar /app/ovh_buy.jar
 
 # 复制配置文件
-COPY src/main/resources/application.properties /app/application.properties
-
+COPY src/main/resources/application.properties src/main/resources/application.properties
 CMD ["java", "-jar", "ovh_buy.jar"]
