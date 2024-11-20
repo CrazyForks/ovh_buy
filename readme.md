@@ -1,6 +1,9 @@
 # java -jar
 
-`在 src/main/resources/application.properties 中配置你的信息即可开始使用`
+`在 src/main/resources/application.properties 中配置你的信息即可开始使用，示例中
+PLAN_CODE=25sklec01
+OPTIONS=bandwidth-300-25skle ram-32g-ecc-1600-25skle softraid-2x2000sa-25skle
+为 ks-le-c 用于验证是否可正常锁单`
 
 # docker
 
