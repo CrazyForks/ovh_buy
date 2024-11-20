@@ -1,6 +1,6 @@
 # java -jar
 
-`在 application.properties 中配置你的信息即可开始使用`
+`在 src/main/resources/application.properties 中配置你的信息即可开始使用`
 
 # docker
 
